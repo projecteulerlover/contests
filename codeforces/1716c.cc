@@ -17,7 +17,7 @@ int64_t helper(int s, int64_t t) {
 
 int64_t solve() {
   cin >> m;
-  for (int i = 0; i < m; ++i) cin >> as[0][i];
+  for (int i = 0; i < m; ++i) cin >> as[0][i]; 
   for (int i = 0; i < m; ++i) cin >> as[1][i];
   int64_t t = 0;
   int64_t msf = LLONG_MAX;
